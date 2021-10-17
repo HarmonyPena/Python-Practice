@@ -7,4 +7,3 @@ selection = input('What kind of cappuccino can I get you today? \nWe have ' + me
 print('Awesome! we will that ' + selection + ' capucinno ready in about 5 minutes.')
 
 
-print('test')
