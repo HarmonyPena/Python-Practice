@@ -1,0 +1,6 @@
+
+hourlyRate = int(input("Enter your hourly rate: "))
+
+hoursWorked = int(input("Enter your hours worked: "))
+
+print("The salary earned for the week is %d" %(hourlyRate * hoursWorked))
