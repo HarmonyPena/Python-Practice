@@ -1,0 +1,44 @@
+#Select 5 favorite products
+
+#Everything is priced per pound (hardcode them)
+
+#Ask the customer about the purchase weight for each product
+
+#Compute the total checkout price & display
+
+#----------------------------------------------------------------
+
+Banana_Price = float(input("Enter per-pound price for Bananas: "))
+
+Apple_Price = float(input("Enter per-pound price for Apples: "))
+
+Orange_Price = float(input("Enter per-pound price for Oranges: "))
+
+Cucumber_Price = float(input("Enter per-pound price for Cucumbers: "))
+
+Cherries_Price = float(input("Enter per-pound price for Bananas: "))
+
+
+Banana_W = float(input("Enter the weight for Bananas: "))
+
+Apple_W = float(input("Enter the weight for Apples: "))
+
+Orange_W = float(input("Enter the weight for Oranges: "))
+
+Cucumber_W = float(input("Enter the weight for Cucumbers: "))
+
+Cherries_W = float(input("Enter the weight for Cherries: "))
+
+Banana_Total = (Banana_Price * Banana_W)
+
+Apple_Total = (Apple_Price * Apple_W)
+
+Orange_Total = (Orange_Price * Orange_W)
+
+Cucumber_Total = (Cucumber_Price * Cucumber_W)
+
+Cherries_Total = (Cherries_Price * Cherries_W)
+
+total = Banana_Total + Apple_Total + Orange_Total + Cucumber_Total + Cherries_Total
+
+print("Total: %d" %(total))
