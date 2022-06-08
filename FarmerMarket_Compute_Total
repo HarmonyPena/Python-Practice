@@ -41,4 +41,4 @@ Cherries_Total = (Cherries_Price * Cherries_W)
 
 total = Banana_Total + Apple_Total + Orange_Total + Cucumber_Total + Cherries_Total
 
-print("Total: %f" %(total))
+print("Total: %.2f" %(total))
