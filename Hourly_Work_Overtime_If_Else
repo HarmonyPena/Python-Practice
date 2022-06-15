@@ -1,0 +1,16 @@
+# Get hourly pay rate & number of hours, compute the weekly pay, but do not pay for greater than 50 hours. 
+# Also, pay 1.5 times regular pay for overtime hours (that is, number of hours beyond regular 40 hours).
+
+worked_hours = float(input("Enter total hours worked: "))
+hourly_rate = float(input("Enter your hourly rate: "))
+
+if (worked_hours > 50): 
+  salary = (40 * hourly_rate) + (10 * 1.5 * hourly_rate)
+
+elif(worked_hours > 40 and worked_hours <= 50):
+  overtime_hours = worked_hours - 40
+  salary = (40 * hourly_rate) + (overtime_hours * 1.5 * hourly_rate)
+else:
+  salary = worked_hours * hourly_rate
+
+print("The total salary for the given worker is $%.2f" %(salary))
