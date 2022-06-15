@@ -1,0 +1,6 @@
+Hours_work = float(input("Enter how many hours you work each week: "))
+
+if(Hours_work >= 39):
+  print("You are a full-time employee")
+else:
+  print("You are a part-time employee")
