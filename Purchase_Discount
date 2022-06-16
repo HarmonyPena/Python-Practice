@@ -10,3 +10,24 @@ else:
   
   print("Your total is $%.2f" %(total))
   print("Wow you saved $%.2f" %(discount))
+
+# --- HERE IS ANOTHER WAY TO WRITE THE CODE ABOVE ---
+
+
+purchase = float(input("Enter bill amount: $"))
+
+if (purchase >= 200 ):
+  discount = purchase * 15/100
+  
+elif (purchase >= 100 and purchase < 200):
+  discount = purchase * 10/100
+  
+else:
+  discount = 0
+ 
+total = purchase - discount
+
+if (discount > 0):
+  print("Wow you saved: $%.2f" %(discount))
+
+print("Your total is: $%.2f" %(total))
