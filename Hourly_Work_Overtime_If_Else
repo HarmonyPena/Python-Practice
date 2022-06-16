@@ -1,4 +1,5 @@
 # Get hourly pay rate & number of hours, compute the weekly pay, but do not pay for greater than 50 hours. 
+
 # Also, pay 1.5 times regular pay for overtime hours (that is, number of hours beyond regular 40 hours).
 
 worked_hours = float(input("Enter total hours worked: "))
