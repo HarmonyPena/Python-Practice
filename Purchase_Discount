@@ -1,0 +1,12 @@
+# This program applies a 10% discount to purchases $100 or more
+
+purchase = float(input("Enter bill amount: $"))
+
+if (purchase < 100):
+  print("Your total is $%.2f" %(purchase))
+else:
+  discount = (purchase * 10/100)
+  total = (purchase) - (discount) 
+  
+  print("Your total is $%.2f" %(total))
+  print("Wow you saved $%.2f" %(discount))
